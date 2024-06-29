@@ -17,7 +17,7 @@ function handleSubmit(event) {
   if (isBlank) {
     alert("Preencha todos os campos");
   } else {
-    const inputsAsNumer = inputs.map((num) => Number(num));
+    const inputsAsNumber = inputs.map((num) => Number(num));
     alert(`A média é ${mean(...inputsAsNumer)}`);
   }
 }
